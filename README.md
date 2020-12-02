@@ -1,4 +1,4 @@
-# Assignment 7
+
 
 #### Spreadsheet Application like Google/Excel Sheet using Javascript, RxJS, and SCSS
 
