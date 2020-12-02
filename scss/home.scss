@@ -1,0 +1,80 @@
+
+.coverPage {
+  padding: 0 0 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+  height: 100vh; }
+
+.coverText {
+  text-align: center;
+  width: 100%;
+  position: relative; }
+
+.coverText > h2 {
+  font-size: 2vw; }
+
+.header {
+  height: 5vh;
+  position: relative; }
+
+.fileOperations {
+  float: right; }
+
+.sheetOperations {
+  float: left; }
+
+.topnav {
+  position: relative;
+  margin-top: 5vh;
+  display: block; }
+
+.topnav > p {
+  display: inline;
+  float: left;
+  margin-right: 1vw;
+  margin-bottom: 0vw; }
+
+.topnav .messages {
+  border: 1px solid black;
+  min-width: 25vw;
+  min-height: 4vh; }
+
+.sheet {
+  display: block;
+  position: relative;
+  margin-top: 15vh;
+  height: 100%; }
+
+table {
+  border: 1px solid black;
+  background-color: #dad6d6; }
+
+tr {
+  min-height: 10vh;
+  border: 1px solid black;
+  background-color: white; }
+
+td {
+  min-width: 10vh;
+  min-height: 10vh;
+  border: 1px solid black;
+  background-color: white;
+  cursor: text; }
+
+td:hover {
+  background-color: wheat; }
+
+th {
+  background-color: lightgray; }
+
+.rowHeader {
+  background-color: lightgray;
+  text-align: center; }
+
+.highlight {
+  background-color: lightblue; }
+
+/* cover page ends here */
+* {
+  font-family: 'Roboto Slab', serif; }

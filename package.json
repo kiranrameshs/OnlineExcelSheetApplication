@@ -1,0 +1,23 @@
+{
+  "name": "assignment-7-kiran-ramesh-s",
+  "version": "1.0.0",
+  "description": "SpreadSheet",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/main.scss --output dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2020/assignment-7-kiran-ramesh-s.git"
+  },
+  "author": "krameshs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2020/assignment-7-kiran-ramesh-s/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2020/assignment-7-kiran-ramesh-s#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "rxjs": "^6.6.3"
+  }
+}

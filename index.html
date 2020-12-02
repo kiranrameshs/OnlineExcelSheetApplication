@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/main.css" />
+    <title>Excel Sheet</title>
+</header>
+<body>
+    <div class="coverPage">
+        <div class="coverText">
+            <h2>SPREAD SHEET</h2>
+        </div>
+    <div class="header">
+        <div class="sheetOperations">
+            <button id="addColumnBtn" class="small blue button"><p>Add Column</p></button>
+            <button id="delColumnBtn" class="small red button"><p>Delete Column</p></button>
+            <button id="addRowBtn" class="small blue button"><p>Add Row</p></button>
+            <button id="delRowBtn" class="small red button"><p>Delete Row</p></button>
+        </div>
+        <div class="fileOperations">
+            <button id="exportBtn" class="small blue button"><p>Export Sheet</p></button>
+            <button id="importBtn" class="small green button"><p>Import CSV</p></button>
+            <input type="file" id="fileUpload" />
+        </div>
+    </div>
+    <div class="topnav">
+        <p >Formula/Value:</p>
+        <p class="messages"></p>
+        <!-- <input type="text" placeholder="Forumla/Value"> -->
+    </div>
+    <div class="sheet">
+        <table id="spreadsheetTable"></table>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.5.4/rxjs.umd.js"></script>
+<script src="./scripts/spreadsheet.js"></script>
+</body>
+</html>
